@@ -1,0 +1,9 @@
+flask
+flask_cors
+pillow
+numpy
+pandas
+opencv-python
+matplotlib
+seaborn
+pexpect

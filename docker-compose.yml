@@ -1,0 +1,9 @@
+version: '3'
+services:
+  code-executor:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      - DISPLAY=:99
+    tty: true
